@@ -15,7 +15,7 @@ public class HomePage extends BasePage {
 	WebElement lnkMyaccount;
 
 	@FindBy(linkText = "Register")
-	WebElement lnkRegister;
+	WebElement lnkRegister;    // 
 
 	@FindBy(linkText = "Login")   // Login link added in step6
 	WebElement linkLogin;
